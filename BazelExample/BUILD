@@ -8,7 +8,7 @@ ios_application(
         "ipad",
     ],
     minimum_os_version = "10.0",
-    infoplists = [":BazelExample/Info.plist"],
+    infoplists = [":Info.plist"],
     visibility = ["//visibility:public"],
     deps = [
         "//BazelExample/Submodule/Networking:Networking",

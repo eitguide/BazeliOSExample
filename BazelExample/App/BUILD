@@ -4,8 +4,11 @@ swift_library(
     name = "App",
     module_name = "App",
     srcs = glob([
-        "Sources/**/*.swift",
+        "Sources/**",
     ]),
+#    data = [
+#        ":Resources/Mains.storyboard",
+#    ],
     deps = [],
     visibility = ["//visibility:public"]
 )
